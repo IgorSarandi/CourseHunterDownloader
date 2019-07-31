@@ -52,3 +52,4 @@ if __name__ == '__main__':
     print('App launch from main file')
     main()
 
+
