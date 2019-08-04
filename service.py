@@ -8,7 +8,8 @@ import sys
 def get_html_from_web():
     url = input("Enter your url (Working only with coursehunter.net) : ")
     try:
-        url = url.replace("https://coursehunters.net", "https://dev.coursehunters.net")
+        url = url.replace("https://coursehunters.net", "https://coursehunter.net")
+        url = url.replace("https://coursehunter.net", "https://dev.coursehunters.net")
         responce = requests.get(url)
     except requests.exceptions.MissingSchema:
         print("Your URL is wrong. Please check it")
