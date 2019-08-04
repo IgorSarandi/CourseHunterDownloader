@@ -28,11 +28,23 @@ def get_data_from_html(html):
         if(lessons == [] or lessons == None):
             raise AttributeError
         my_list = []
+        flag = 200
         for lesson in lessons:
             text = str(lesson)
+            res_link = ""
             result_link = re.search("https://vs1(.+)mp4", text)
+            if flag == 200:
+                response = requests.get(result_link.group())
+                if response.status_code == 404:
+                    flag = 404
+                elif response.status_code == 200:
+                    flag = 0
+            if flag == 404:
+                res_link = result_link.group().replace("vs1", "vs2")
+            else:
+                res_link = result_link.group()
             result_name = re.search("\"lessons-name\">(.+)</div>", text)
-            my_map = {"link" : result_link.group(), "name" : result_name.group(1)}
+            my_map = {"link" : res_link, "name" : result_name.group(1)}
             my_list.append(my_map)
     except AttributeError:
         print("Program cannot download this course.")
