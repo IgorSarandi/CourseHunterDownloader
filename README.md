@@ -5,7 +5,7 @@ Further copy url with course and past him into app.
 
 ## ATTENTION
 Some paid courses with movies cannot to be download. It's due to the fact that they can be protected by paid subscription. If you want to check access to course, then change url 
-from https://coursehunters.net/course/somecourse
+from https://coursehunter.net/course/somecourse
 to https://dev.coursehunters.net/course/somecourse
 If you find your paid course as free, then boldly paste url into app. Enjoy watching!
 
@@ -16,8 +16,8 @@ If you find your paid course as free, then boldly paste url into app. Enjoy watc
 Затем копируйте ссылку с курсом и вставляйте ее в программу.
 
 ## ВНИМАНИЕ
-Некоторые платные курсы с видео не могу быть скачаны. Это связано с тем, что они защищены платной подпиской. Если вы хотите проверить, доступен ли курс для скачивания, тогда измените ссылку 
-с https://coursehunters.net/course/somecourse
+Некоторые платные курсы с видео не могут быть скачаны. Это связано с тем, что они защищены платной подпиской. Если вы хотите проверить, доступен ли курс для скачивания, тогда измените ссылку 
+с https://coursehunter.net/course/somecourse
 на https://dev.coursehunters.net/course/somecourse
 Если вы нашли ваш платный курс как бесплатный, то тогда смело вставляйте ссылку в программу. Наслаждайтесь просмором!
 
